@@ -17,3 +17,5 @@ Docker Build
 Docker Hub Push
       ↓
 Ready for Deployment
+
+The pipeline automatically builds and pushes Docker images to Docker Hub using both the latest tag and a commit specific tag for traceability and rollback.
